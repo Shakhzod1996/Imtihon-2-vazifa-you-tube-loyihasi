@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 1500px;
+    margin: auto;
+    background-color: #000000f1;
+    overflow: hidden;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head1 {
+    display: flex;
+    align-items: center;
+}
+.head2 {
+    display: flex;
+    align-items: center;
+}
+.head3 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.inp_bgcol {
+    color: #fff;
+    padding: 8px 80px;
+    background-color: #2c2b2bf1;
+    border-radius: 20px;
+    border: 1px solid #2c2b2bf1;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+
+}
+.btn_hea1 {
+    padding: 0 15px;
+    margin-right: 10px;
+    background-color: #2c2b2bf1;
+    border-radius: 20px;
+    border: 1px solid #2c2b2bf1;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.btn_hea2 {
+    padding: 0 6px;
+    background-color: #2c2b2bf1;
+    border-radius: 20px;
+    border: 1px solid #2c2b2bf1;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.head1 {
+    gap: 10px;
+}
+.head2 {
+    gap: 10px;
+}
+.head3 {
+    gap: 10px;
+}
+
+.word-col {
+    color: #fff;
+}
+
+.menbtn {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.log1 {
+    height: 35px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.log2 {
+    height: 35px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.log3 {
+    height: 35px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.navbar {
+    padding: 10px;
+}
+.nav {
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    background-color: #2c2b2bf1;
+    border: 1px solid #2c2b2bf1;
+    border-radius: 5px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.first-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.second-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.left_cont {
+    width: 12%;
+    
+}
+.right_cont {
+    width: 88%;
+    
+}
+
+/* shorts cont */
+h1 {
+    color: #fff;
+    margin: 15px;
+}
+
+.shorts_cont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
